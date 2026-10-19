@@ -1,0 +1,21 @@
+{
+  "status": "passed",
+  "pocketrisu": "1.14.0",
+  "theme_version": "0.2.0",
+  "checks": [
+    "Existing v0.1.0 plugin upgraded via the real duplicate-plugin update dialog",
+    "Greeting and all 120 selected-room messages accessible; other rooms are not loaded",
+    "Chat is permanently styled as book pages; original input node, draft and arrow keys preserved; no mode switch or full-screen reader",
+    "Existing custom CSS and inline HTML/style apply; Markdown, HTML, character assets and inlay images decode; scripts/CBS do not execute",
+    "40 consecutive pages stay aligned at fractional widths; keyboard, mobile swipe, zoom and input bounds verified",
+    "Room/character switching and reload retain bookmarks; untouched fourth room never read",
+    "Disabling the theme restores the original chat and removes injected styles; re-enable reapplies exactly one theme",
+    "All 291 messages plus room notes/lore/scriptstate unchanged after use, disable/re-enable and server restart"
+  ],
+  "browser_errors": [],
+  "max_alignment_error_px": 0,
+  "sha256": {
+    "paper-reader.js": "1b0a66c700cef0739a945dd2cd9fb321ec48e981f82dfbf416635509871e7e3c",
+    "paper-theme.css": "267d5b9a9220dfe3009adc1c35413b456527152840af81cfe7c5809ceb8f210b"
+  }
+}
